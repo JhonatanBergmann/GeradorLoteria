@@ -1,0 +1,42 @@
+.Generator {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.Generator h2 {
+    margin-bottom: 25px;
+    color: #FFF;
+}
+
+.Generator h3 {
+    margin-bottom: 25px;
+    background-color: #188038;
+    border-radius: 10px;
+}
+
+.Generator label {
+    margin-right: 10px;
+}
+
+.Generator input {
+    font-family: Montserrat;
+    font-size: 1.4rem;
+    width: 50px;
+    background-color: #5ea156;
+    color: #FFF;
+    border-radius: 10px;
+    border: 0;
+}
+
+.Generator button {
+    font-family: Montserrat;
+    font-size: 1.0rem; 
+    margin-top: 25px;
+    width: 200px;
+    height: 50px;
+    color: #FFF;
+    background-color: #5fa357;
+    border-radius: 10px;
+    border: 0;
+}
