@@ -6,9 +6,9 @@
 </h1>
 
 <p align="center">
-  <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/JhonatanBergmann/Help" />
-  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/JhonatanBergmann/Help" />
-  <img alt="Github License" src="https://img.shields.io/github/license/JhonatanBergmann/Help" />
+  <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/JhonatanBergmann/Palpitei" />
+  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/JhonatanBergmann/Palpitei" />
+  <img alt="" src="https://img.shields.io/github/repo-size/JhonatanBergmann/Palpitei" />
 </p>
 
 <p align="center">Gerador de Números da Sorte</p>
