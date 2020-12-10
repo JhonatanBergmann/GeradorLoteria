@@ -13,7 +13,7 @@ export default () =>
 
       <div className='applogo'>
         <img src={logo} alt='logo' />
-        <h1 className='title'>Gerador de Loterias</h1>
+        <h1 className='title'>Palpitei</h1>
       </div>
 
       <div className='generator'>

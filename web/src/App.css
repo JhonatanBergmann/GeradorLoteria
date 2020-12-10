@@ -20,12 +20,13 @@
 
 .page-app .content-wrapper .applogo img {
   width: 15%;
-  margin-left: 25px;
+  margin-left: 0px;
 }
 
 .page-app .content-wrapper .title {
   color: #5ea156;
   font-size: 1.2rem;
+  margin-left: 20px;
 }
 
 .page-app .content-wrapper .generator {

@@ -27,11 +27,12 @@
     color: #FFF;
     border-radius: 10px;
     border: 0;
+    outline: none;
 }
 
 .Generator button {
     font-family: Montserrat;
-    font-size: 1.0rem; 
+    font-size: 1.0rem;
     margin-top: 25px;
     width: 200px;
     height: 50px;
@@ -39,4 +40,5 @@
     background-color: #5fa357;
     border-radius: 10px;
     border: 0;
+    outline: none;
 }
