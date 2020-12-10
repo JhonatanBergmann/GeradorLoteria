@@ -19,6 +19,9 @@
   <img src="forReadme/mockup.png" alt="mockup" >
 </p>
 
+## 🔷 Netlify
+### [Live Demo - Clique aqui!](https://jhonatanbergmann-palpitei.netlify.app/)
+
 ## 📅 Sobre
 
 Gerador de números para jogos de loterias. O gerador de números aleatórios é muito usado por apostadores contumazes de loterias.
