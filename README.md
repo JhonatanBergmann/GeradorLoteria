@@ -34,7 +34,7 @@ Gerador de números para jogos de loterias. O gerador de números aleatórios é
 </p>
 
 ## 🌐 Tecnologias Usadas
-Foram usadas essa tecnologias:
+Foram usadas essas tecnologias:
 
 - [React](https://pt-br.reactjs.org/)
 - [React Native](https://reactnative.dev/)
