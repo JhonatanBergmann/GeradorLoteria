@@ -11,10 +11,6 @@
   <img alt="" src="https://img.shields.io/github/repo-size/JhonatanBergmann/Palpitei" />
 </p>
 
-<p align="center">
-  [![Netlify Status](https://api.netlify.com/api/v1/badges/d25d5eac-2ef4-4113-9c71-162bac819c89/deploy-status)](https://app.netlify.com/sites/jhonatanbergmann-palpitei/deploys)
-</p>
-
 <p align="center">Gerador de Números da Sorte</p>
 
 <br>
@@ -24,6 +20,7 @@
 </p>
 
 ## 🔷 Netlify
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d25d5eac-2ef4-4113-9c71-162bac819c89/deploy-status)](https://app.netlify.com/sites/jhonatanbergmann-palpitei/deploys)
 ### [Live Demo - Clique aqui!](https://jhonatanbergmann-palpitei.netlify.app/)
 
 ## 📅 Sobre
