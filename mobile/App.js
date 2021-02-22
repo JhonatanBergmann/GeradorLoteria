@@ -5,39 +5,42 @@ import {
   Text,
   View,
   Image,
-  Dimensions,
-  ImageBackground
+  Dimensions
 } from 'react-native'
 
-import { useFonts } from 'expo-font'
-import { Montserrat_400Regular } from '@expo-google-fonts/montserrat'
-
-import { StatusBar } from 'expo-status-bar'
+import { setStatusBarHidden } from 'expo-status-bar' /* EXPO STATUSBAR HIDDEN */
 import { LinearGradient } from 'expo-linear-gradient'
+import { AppLoading } from 'expo'
+import { useFonts } from 'expo-font'
 
 import Generator from './src/components/Generator'
 
 export default function App() {
 
-  const [fontsLoaded] = useFonts({
-    Montserrat_400Regular
+  const [loaded] = useFonts({
+    montserratThin: require('./assets/fonts/Montserrat-Thin.ttf'),
+    montserratLight: require('./assets/fonts/Montserrat-Light.ttf'),
+    montserratMedium: require('./assets/fonts/Montserrat-Medium.ttf')
   })
 
-  if (!fontsLoaded) {
-    return null
+  if (!loaded) {
+    return <AppLoading />
   }
+
+  setStatusBarHidden(true) /* EXPO STATUSBAR HIDDEN */
 
   return (
     <View style={styles.container}>
-      <StatusBar style="auto" />
       <LinearGradient style={styles.gradient}
         colors={['#edf3fb', '#5ea156']}
         start={{ x: 0, y: 0 }}
         end={{ x: 1, y: 1 }}>
-        <View style={{ flexDirection: 'column', marginLeft: '10%' }}>
-          <Image style={styles.img}
-            source={require('./src/imgs/logo.png')} />
-          <Text style={styles.title}>Palpitei</Text>
+        <View style={{ flexDirection: 'column', alignItems: 'center' }}>
+          <View style={{ alignItems: 'center', position: 'absolute', left: '10%' }}>
+            <Image style={styles.img}
+              source={require('./src/imgs/logo.png')} />
+            <Text style={styles.title}>Palpitei</Text>
+          </View>
         </View>
         <Generator />
         <Text style={styles.footer}>Boa Sorte! :)</Text>
@@ -48,7 +51,8 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1
+    flex: 1,
+    justifyContent: 'space-around'
   },
   gradient: {
     height: '100%',
@@ -60,16 +64,15 @@ const styles = StyleSheet.create({
     height: Dimensions.get('window').height / 10
   },
   title: {
-    fontFamily: 'Montserrat_400Regular',
-    left: '1.8%',
     color: '#5ea156',
-    fontSize: 20
+    fontSize: 20,
+    fontFamily: 'montserratLight'
   },
   footer: {
-    fontFamily: 'Montserrat_400Regular',
     color: '#188038',
     textAlign: 'right',
     right: '10%',
-    fontSize: 20
- }
+    fontSize: 20,
+    fontFamily: 'montserratLight'
+  }
 })

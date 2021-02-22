@@ -1,25 +1,25 @@
-.Generator {
+.generator-container {
     color: white;
     font-size: 1.5rem;
     text-align: center;
 }
 
-.Generator h2 {
+.generator-container h2 {
     margin-bottom: 25px;
     color: #FFF;
 }
 
-.Generator h3 {
+.generator-container h3 {
     margin-bottom: 25px;
     background-color: #188038;
     border-radius: 10px;
 }
 
-.Generator label {
+.generator-container label {
     margin-right: 10px;
 }
 
-.Generator input {
+.generator-container input {
     font-family: Montserrat;
     font-size: 1.4rem;
     width: 50px;
@@ -30,7 +30,7 @@
     outline: none;
 }
 
-.Generator button {
+.generator-container button {
     font-family: Montserrat;
     font-size: 1.0rem;
     margin-top: 25px;
