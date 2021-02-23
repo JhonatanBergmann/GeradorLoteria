@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="forReadme/logo.png" alt="icon" width="200" height="200">
+  <img src="readme/logo.png" alt="icon" width="200" height="200">
   <br>
   Palpitei
   <br>
