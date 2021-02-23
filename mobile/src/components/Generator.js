@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState } from 'react'
 import {
   View,
   Text,
@@ -86,6 +86,7 @@ const styles = StyleSheet.create({
     fontSize: 30,
     paddingHorizontal: '5%',
     borderRadius: 8,
+    textAlign: 'center',
     fontFamily: 'montserratLight'
   },
   textQtde: {
