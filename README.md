@@ -16,7 +16,7 @@
 <br>
 
 <p align="center">
-  <img src="forReadme/mockup.png" alt="mockup" >
+  <img src="readme/mockup.png" alt="mockup" >
 </p>
 
 ## 🔷 Netlify
@@ -28,10 +28,10 @@
 Gerador de números para jogos de loterias. O gerador de números aleatórios é muito usado por apostadores contumazes de loterias.
 
 <p align="center">
-  <img src="forReadme/web.gif" alt="Demo" >
+  <img src="readme/web.gif" alt="Demo" >
 </p>
 <p align="center">
-  <img src="forReadme/mobile.gif" alt="Demo" >
+  <img src="readme/mobile.gif" alt="Demo" >
 </p>
 
 ## 🌐 Tecnologias Usadas
