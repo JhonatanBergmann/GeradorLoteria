@@ -31,7 +31,7 @@ Gerador de números para jogos de loterias. O gerador de números aleatórios é
   <img src="readme/web.gif" alt="Demo" >
 </p>
 <p align="center">
-  <img src="readme/mobile.gif" alt="Demo" >
+  <img src="readme/mobileNew.gif" alt="Demo" >
 </p>
 
 ## 🌐 Tecnologias Usadas
