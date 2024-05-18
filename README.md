@@ -19,9 +19,8 @@
   <img src="readme/mockup.png" alt="mockup" >
 </p>
 
-## 🔷 Netlify
-[![Netlify Status](https://api.netlify.com/api/v1/badges/d25d5eac-2ef4-4113-9c71-162bac819c89/deploy-status)](https://jhonatanbergmann-palpitei.netlify.app/)
-### [Live Demo - Clique aqui!](https://jhonatanbergmann-palpitei.netlify.app/)
+## 🔺 Vercel 
+### [Live Demo - Clique aqui!](https://palpitei.vercel.app/)
 
 ## 📅 Sobre
 
@@ -39,15 +38,12 @@ Foram usadas essas tecnologias:
 
 - [React](https://pt-br.reactjs.org/)
 - [React Native](https://reactnative.dev/)
-- [Yarn](https://yarnpkg.com/)
 - [Expo](https://expo.io/)
-
-*Foram usados outros Frameworks no projeto, mas esses são os principais.*
 
 ## ***</>*** Como usar o código?
 1. Instale o **Yarn** em seu computador
 1. Instale o **NodeJs** na versão >= 12.0
-1. Clone este repositório `git clone https://github.com/JhonatanBergmann/palpitei.git`
+1. Clone este repositório `git clone https://github.com/jhonbergmann/palpitei.git`
 
 ### 🌐 Web
 1. Acesse o diretório e dê o comando `yarn install`
