@@ -20,7 +20,7 @@
 </p>
 
 ## 🔺 Vercel 
-### [Live Demo - Clique aqui!](https://palpitei.vercel.app/)
+### [Live Demo - Clique aqui!](https://palpitei-jhonatan-bergmann.vercel.app/)
 
 ## 📅 Sobre
 
